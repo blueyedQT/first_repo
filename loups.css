@@ -1,0 +1,55 @@
+/*loups.css
+Styles for loups.html
+Katrina Sanford
+October 27, 2014*/
+
+* {
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+#wrapper {
+	background-color: #F0F0F0;
+	width: 600px;
+	overflow: hidden;
+	height: auto;
+/*	padding: 10px;
+*/}
+#header {
+	/*background-color: #D8D8D8;*/
+	display: block;
+	border-radius: 10px;
+	margin: 10px;
+	height: 60px;
+/*	font-size: 80%;
+*/}
+#navigation {
+	font-size: 80%;
+	background-color: green;
+	display: inline-block;
+	vertical-align: top;
+	width: 160px;
+	padding: 10px;
+	border-radius: 10px;
+	margin: 10px;	
+}
+#content {
+	background-color: white;
+	display: inline-block;
+	vertical-align: top;
+	width: 350px;
+	padding: 10px;
+	border-radius: 10px;
+	margin: 10px;
+}
+#footer {
+	background-color: blue;
+	display: block;
+	border-radius: 10px;
+	padding: 10px;
+	margin: 10px;
+}
+
+ul {
+	list-style-position: inside;
+}
